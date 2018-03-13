@@ -19,7 +19,7 @@ composer require oppara/cakephp-plugin-unix-timestamp
 
 You need to enable the plugin your config/bootstrap.php file:
 
-```
+```php
 <?php
 Plugin::load('Oppara/UnixTimestamp');
 ```
@@ -38,7 +38,8 @@ CREATE TABLE users (
 );
 ```
 
-```
+```php
+<?php
 namespace App\Model\Table;
 
 use Cake\ORM\Table;
