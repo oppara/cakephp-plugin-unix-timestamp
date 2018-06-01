@@ -28,6 +28,8 @@ If you are already using `Plugin::loadAll();`, then this is not necessary.
 
 ## Usage
 
+more info https://book.cakephp.org/3.0/en/orm/behaviors/timestamp.html
+
 ```sql
 CREATE TABLE users (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -52,3 +54,4 @@ class UsersTable extends Table
     }
 }
 ```
+
